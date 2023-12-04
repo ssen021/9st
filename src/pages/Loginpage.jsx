@@ -94,6 +94,7 @@ const LoginComponent = ({ setIsLoggedIn }) => {
 };
 LoginComponent.propTypes = {
   setIsLoggedIn: PropTypes.func.isRequired, // prop-types 추가
+  isLoggedIn: PropTypes.bool.isRequired,
 };
 
 export default LoginComponent;
