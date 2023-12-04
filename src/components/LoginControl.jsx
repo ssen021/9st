@@ -13,7 +13,7 @@ const LoginControl = () => {
 
   const handleLogoutClick = () => {
     setIsLoggedIn(false);
-    navigate("/home");
+    navigate("/");
   };
 
   let button;

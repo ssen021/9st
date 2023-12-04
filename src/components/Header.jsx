@@ -8,7 +8,7 @@ export default function Header() {
 
   const handleImageClick = () => {
     // Home 페이지로 이동
-    navigate("/Home"); // navigate 함수를 사용하여 Home 페이지로 이동
+    navigate("/"); // navigate 함수를 사용하여 Home 페이지로 이동
   };
 
   return (

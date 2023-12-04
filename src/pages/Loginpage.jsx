@@ -35,7 +35,7 @@ const LoginComponent = ({ setIsLoggedIn }) => {
         dispatch(loginSuccess(response.data.userInfo));
         setIsLoggedIn(true);
         alert("로그인 성공!!", { state: { isLoggedIn: true } });
-        navigate("/home");
+        navigate("/");
 
         setLoading(false);
       }, 1500);

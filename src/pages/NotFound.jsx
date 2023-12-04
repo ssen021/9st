@@ -6,7 +6,7 @@ export default function NotFound() {
   const navigate = useNavigate();
 
   const handleHome = () => {
-    navigate("/Home");
+    navigate("/");
   };
   return (
     <NotFoundInfo>
